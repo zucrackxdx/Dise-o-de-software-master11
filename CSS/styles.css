@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url(..//imagenes/uwu\ blanco.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
+  
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: Inset white;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .about, .planes {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .planes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .plane {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .plane:hover {
+    transform: translateY(-5px);  
+  }
+  
+  .plane img {
+    width: 100%;
+    border-radius: 5px;
+    
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: outset white;
+  }
+  
+.about h2{
+  text-align: center;
+}
+/*este agregar a los demas color tex shadow*/
+.flota{
+  color: white;
+  text-shadow: 1px 3px 1px black;
+  margin-left: 847px;
+}
+.planes h3{
+  text-align: center;
+}
+
+#contacto:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}

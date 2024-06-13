@@ -1,0 +1,144 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url(..//imagenes/uwu\ blanco.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
+  
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: Inset white;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .about, .planes {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .planes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .plane {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .plane:hover {
+    transform: translateY(-5px);
+  }
+  
+  .plane img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px  ;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    border-top: outset white;
+
+    
+  }
+
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+h1 {
+    color: white;
+}
+p {
+    color: rgba(255, 255, 255, 0.712);
+}
+.button {
+    display: inline-block;
+    background-color: #51a3fa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+.content p{
+  background-color: #333;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: ridge;
+  padding: 40px;
+  border-color: white;
+  border-radius: 10px;
+}
+.ayuda{
+  background-color: #333;
+  margin-left: 642px;
+  border: outset;
+  border-radius: 20px;
+  max-width: 600px;
+  
+}
+.content h2{
+  color: white;
+  text-shadow: 1px 3px 1px black;
+}
+.content{
+  margin-left: 350px;
+  max-width: 1200px;
+}
+
+#contacto:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
